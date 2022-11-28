@@ -1,0 +1,63 @@
+/* EXTERNAL CSS */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.img-style {
+    width: 40vw;
+    border-radius: 10px 0 0 0;
+    margin: 2px;
+}
+
+.main-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: cadetblue;
+    box-shadow: black 10px 20px 12px;
+    border-radius: 10px;
+}
+
+.card-table {
+    box-shadow: inset aqua 10px 5px 10px, 4px 4px 10px;
+    border-radius: 4px;
+    padding: 10px;
+}
+.card-table h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.main-content-card1 {height: 20px;}
+.main-content-card2 {height: 20px;}
+.main-content-card3 {height: 20px;}
+.main-content-card4 {height: 20px;}
+.main-content-card5 {height: 80px;}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .card-table {
+        font-size: 14px;
+    }
+
+    .img-style {
+        width: 68vw;
+    }
+
+}
